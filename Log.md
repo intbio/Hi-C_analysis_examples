@@ -9,5 +9,8 @@ Caused by:
 
 Command executed:
 
-  bsub ```
- 4. 
+  bsub
+```
+4. Запущен тест пайплайна nf-core/hic
+
+
