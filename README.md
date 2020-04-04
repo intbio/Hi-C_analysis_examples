@@ -1,4 +1,8 @@
-# Hi-C_analysis_example
+# Hi-C_analysis_examples
+
+A repo to store various Hi-C analysis examples.
+
+## Distiller-nf
 
 We use https://github.com/mirnylab/distiller-nf
 
