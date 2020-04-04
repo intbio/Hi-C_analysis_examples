@@ -12,8 +12,9 @@ source activate genomics
 cd _scratch
 mkdir lib_eiden_2009; cd lib_eiden_2009
 nextflow clone mirnylab/distiller-nf  ./
+curl https://raw.githubusercontent.com/intbio/Hi-C_analysis_examples/master/distiller/newton.config > configs/local.config
 
-### Modify configs/local.config or replace it with distiller/newton.configs
+### This will modify configs/local.config and replace it with distiller/newton.configs
 ### line 72 enable = false
 ### add section
 ### singularity {
@@ -21,7 +22,9 @@ nextflow clone mirnylab/distiller-nf  ./
 ### runOptions = '-B /home/_shared/genomics_dbs:/home/_shared/genomics_dbs'
 ### }
 
-### download distiller/lib_eiden_2009.yml
+curl https://raw.githubusercontent.com/intbio/Hi-C_analysis_examples/master/distiller/lib_eiden_2009.yml > lib_enden_2009.yml
+### This will download  distiller/lib_eiden_2009.yml
+
 nextflow distiller.nf -params-file lib_eiden_2009.yml
 ```
 
