@@ -22,7 +22,7 @@ curl https://raw.githubusercontent.com/intbio/Hi-C_analysis_examples/master/dist
 ### runOptions = '-B /home/_shared/genomics_dbs:/home/_shared/genomics_dbs'
 ### }
 
-curl https://raw.githubusercontent.com/intbio/Hi-C_analysis_examples/master/distiller/lib_eiden_2009.yml > lib_enden_2009.yml
+curl https://raw.githubusercontent.com/intbio/Hi-C_analysis_examples/master/distiller/lib_eiden_2009.yml > lib_eiden_2009.yml
 ### This will download  distiller/lib_eiden_2009.yml
 
 nextflow distiller.nf -params-file lib_eiden_2009.yml
