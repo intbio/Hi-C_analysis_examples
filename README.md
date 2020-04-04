@@ -12,6 +12,7 @@ source activate genomics
 cd ~/_scratch
 mkdir lib_eiden_2009; cd lib_eiden_2009
 nextflow clone mirnylab/distiller-nf  ./
+git checkout 4d147a1 # this is the commit we were testing with
 curl https://raw.githubusercontent.com/intbio/Hi-C_analysis_examples/master/distiller/newton.config > configs/local.config
 
 ### This will modify configs/local.config and replace it with distiller/newton.configs
