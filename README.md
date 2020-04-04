@@ -12,17 +12,17 @@ source activate genomics
 cd _scratch
 mkdir lib_eiden_2009; cd lib_eiden_2009
 nextflow clone mirnylab/distiller-nf  ./
-cd test
-bash setup_test.sh
-cd ..
-### Modify configs/local.config
+
+### Modify configs/local.config or replace it with distiller/newton.configs
 ### line 72 enable = false
 ### add section
 ### singularity {
 ### enabled = true
 ### runOptions = '-B /home/_shared/genomics_dbs:/home/_shared/genomics_dbs'
 ### }
-nextflow distiller.nf -params-file ./test/test_project.yml 
+
+### download distiller/lib_eiden_2009.yml
+nextflow distiller.nf -params-file lib_eiden_2009.yml
 ```
 
 
