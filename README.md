@@ -9,7 +9,7 @@ We use https://github.com/mirnylab/distiller-nf
 ```
 module load conda3
 source activate genomics
-cd _scratch
+cd ~/_scratch
 mkdir lib_eiden_2009; cd lib_eiden_2009
 nextflow clone mirnylab/distiller-nf  ./
 curl https://raw.githubusercontent.com/intbio/Hi-C_analysis_examples/master/distiller/newton.config > configs/local.config
