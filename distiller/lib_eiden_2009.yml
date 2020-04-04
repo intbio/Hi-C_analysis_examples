@@ -1,4 +1,4 @@
-#This is for Liberman Eiden paper 2009
+#This is for Liberman-Eiden paper 2009
 
 
 #########################################
@@ -71,9 +71,9 @@ input:
     # provide a refence genome to map your raw reads to.
     # BWA-indexed genome and a file with chromosome names and sizes are required.
     genome:
-        assembly_name: 'hg38'
-        bwa_index_wildcard_path: '/home/_shared/genomics_dbs/genomes/human/hg38.fa.*'
-        chrom_sizes_path: '/home/_shared/genomics_dbs/genomes/human/hg38.reduced.chrom.sizes'        
+        assembly_name: 'hg38.p12'
+        bwa_index_wildcard_path: '/home/_shared/genomics_dbs/genomes/human/hg38.p12.fa.*'
+        chrom_sizes_path: '/home/_shared/genomics_dbs/genomes/human/hg38.p12.reduced.chrom.sizes'        
 
 # Choose if you want to do FastQC of the input files:
 do_fastqc: False
