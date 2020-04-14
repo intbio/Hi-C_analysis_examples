@@ -52,9 +52,10 @@ nextflow distiller.nf -params-file ./test/test_project.yml
 ```
 
 # HiGlass Visualisation
+**!** Only multiresolutional files in the .cool format can be viewd with the HiGlass
 in a terminal, on the newton.bioeng, in the genomics environment:
 ```
-cp <your .mcool file> /home/_shared/higlass/hg-tmp #copy your cooler to the HiGlass working directory, note -- only multiresolutional files can be viewd with the HiGlass
+cp <your .mcool file> /home/_shared/higlass/hg-tmp 
 COOLER=<your .mcool file>
 wget -P /home/_shared/higlass/hg-tmp https://s3.amazonaws.com/pkerp/public/$COOLER
 sudo -u docker docker exec higlass-container ls /tmp
