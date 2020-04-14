@@ -51,6 +51,10 @@ cd ..
 nextflow distiller.nf -params-file ./test/test_project.yml 
 ```
 
+# HiGlass Visualisation
+```
+cp <your .mcool file> /home/_shared/higlass/hg-tmp #copy your contact matrix to the HiGlass working directory, note -- only multiresolutional files can be viewd with the HiGlass
+
 # Задачи
 1) определиться с пайплайном
 2) определиться с данными
