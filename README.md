@@ -52,6 +52,7 @@ nextflow distiller.nf -params-file ./test/test_project.yml
 ```
 
 # HiGlass Visualisation
+in a terminal, on the newton.bioeng, in the genomics environment:
 ```
 cp <your .mcool file> /home/_shared/higlass/hg-tmp #copy your cooler to the HiGlass working directory, note -- only multiresolutional files can be viewd with the HiGlass
 COOLER=<your .mcool file>
@@ -59,6 +60,7 @@ wget -P /home/_shared/higlass/hg-tmp https://s3.amazonaws.com/pkerp/public/$COOL
 sudo -u docker docker exec higlass-container ls /tmp
 sudo -u docker docker exec higlass-container python higlass-server/manage.py ingest_tileset --filename /tmp/$COOLER --filetype cooler --datatype matrix
 ```
+Then go to the http://newton.bioeng.ru:8888/, press "+" in the upper-right corner then select your cooler and explore the heatmap
 
 # Задачи
 1) определиться с пайплайном
