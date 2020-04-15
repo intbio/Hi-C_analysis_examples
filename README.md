@@ -58,7 +58,7 @@ In the *genomics* environment:
 ```
 cp <your .mcool file> /home/_shared/higlass/hg-tmp 
 COOLER=<your .mcool file>
-wget -P /home/_shared/higlass/hg-tmp https://s3.amazonaws.com/pkerp/public/$COOLER
+
 sudo -u docker docker exec higlass-container ls /tmp
 sudo -u docker docker exec higlass-container python higlass-server/manage.py ingest_tileset --filename /tmp/$COOLER --filetype cooler --datatype matrix
 ```
