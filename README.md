@@ -26,6 +26,10 @@ curl https://raw.githubusercontent.com/intbio/Hi-C_analysis_examples/master/dist
 curl https://raw.githubusercontent.com/intbio/Hi-C_analysis_examples/master/distiller/lib_eiden_2009.yml > lib_eiden_2009.yml
 ### This will download  distiller/lib_eiden_2009.yml
 
+vdb-config -s /repository/user/main/public/root="/home/_shared/genomics_dbs/sra"
+sed -i.bak 's/HOME=/#HOME=/' distiller.nf
+### This will in distiller.nf comment out line 137 # HOME=`readlink -e ./` this will allow sra-tools to use local cache
+
 nextflow distiller.nf -params-file lib_eiden_2009.yml
 ```
 
