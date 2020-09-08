@@ -1,1 +1,0 @@
-#Micro-C. H.sapiens, stem cell derived cell line. В [этом датасете](https://data.4dnucleome.org/experiment-set-replicates/4DNES21D8SP8/#processed-files) явно содержится информация о контактах регуляторных участков бета-глобинового локуса 
