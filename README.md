@@ -8,4 +8,6 @@ Look at the following flowchart to see how different packages for data processin
 
 Basic info about working with packages can be found in the [Data_Preprocessing](https://github.com/intbio/Hi-C_analysis_examples/tree/master/Data_Preprocessing) directory
 
+Notes about working with distiller are [here](https://github.com/intbio/Hi-C_analysis_examples/tree/master/distiller) and cooltools notebooks are [here](https://github.com/intbio/Hi-C_analysis_examples/tree/master/cooltools)
+
 DistMan -- our pandas data science sheet for Micro-C data analysis --  notebook can be found in the [DistMan](https://github.com/intbio/Hi-C_analysis_examples/tree/master/DistMan) directory
