@@ -12,4 +12,4 @@ Notes about working with distiller are [here](https://github.com/intbio/Hi-C_ana
 
 DistMan -- our pandas data science sheet for Micro-C data analysis --  notebook can be found in the [DistMan](https://github.com/intbio/Hi-C_analysis_examples/tree/master/DistMan) directory
 
-In order to integrate nucleosomes positioning data with nucleosomal resolution micro-c data our script [MM-Integrator](https://github.com/intbio/Hi-C_analysis_examples/blob/master/Data%20Integration/MM-Integrator.ipynb) can be used
+In order to integrate nucleosomes positioning data with nucleosomal resolution Micro-C data our script [MM-Integrator](https://github.com/intbio/Hi-C_analysis_examples/blob/master/Data%20Integration/MM-Integrator.ipynb) can be used
