@@ -10,6 +10,8 @@ Basic info about working with packages can be found in the [Data_Preprocessing](
 
 Notes about working with distiller are [here](https://github.com/intbio/Hi-C_analysis_examples/tree/master/distiller) and cooltools notebooks are [here](https://github.com/intbio/Hi-C_analysis_examples/tree/master/cooltools)
 
+[Notes](https://github.com/intbio/Hi-C_analysis_examples/blob/master/Data_Preprocessing/HiGlass.md) about coolers visualisation via HiGlass
+
 DistMan -- our pandas data science sheet for Micro-C data analysis --  notebook can be found in the [DistMan](https://github.com/intbio/Hi-C_analysis_examples/tree/master/DistMan) directory
 
 In order to integrate nucleosomes positioning data with nucleosomal resolution Micro-C data our script [MM-Integrator](https://github.com/intbio/Hi-C_analysis_examples/blob/master/Data%20Integration/MM-Integrator.ipynb) can be used
