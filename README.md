@@ -17,7 +17,7 @@ In order to integrate nucleosomes positioning data with nucleosomal resolution M
 Notes on using Micro-C data for nucleosome positioning can be found [here](https://github.com/intbio/Hi-C_analysis_examples/blob/master/Data_Preprocessing/Using_Micro-C_for_positioning)
 
 -------------------------------------------------
- #MNase-seq, ChIP-seq data processing
+ # MNase-seq, ChIP-seq data processing
 Also here you can get a glimpse of our approach to process other 3D-genomics data:
 
 This is a flowchart depicting our MNase-seq data processing pipeline
