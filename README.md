@@ -21,10 +21,12 @@ Notes on using Micro-C data for nucleosome positioning can be found [here](https
 Also here you can get a glimpse of our approach to process other 3D-genomics data:
 
 This is a flowchart depicting our MNase-seq data processing pipeline
+
 ![](https://github.com/intbio/Hi-C_analysis_examples/blob/master/Flow_Chart%20MNase-seq-1.jpg)
 
 
 -------------------------------------------------
 
 This is a flowchart of the ChIP-Seq/Micro-C integration (based on the approach presented in Hsieh et al.,2020)
+
 ![](https://github.com/intbio/Hi-C_analysis_examples/blob/master/ChIP-Seq_Micro-C-1.jpg)
