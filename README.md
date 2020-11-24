@@ -1,6 +1,6 @@
 # Hi-C/Micro-C data processing
 
-Here we present the system for Hi-C/Micro-C data processing and analysis
+**Here we present the system for Hi-C/Micro-C data processing and analysis**
 
 Look at the following flowchart to see how different packages for data processing in this ecosystem interact and what data formats are supported
 
@@ -18,7 +18,8 @@ Notes on using Micro-C data for nucleosome positioning can be found [here](https
 
 -------------------------------------------------
  # MNase-seq, ChIP-seq data processing
-Also here you can get a glimpse of our approach to process other 3D-genomics data:
+ 
+**Also here you can get a glimpse of our approach to process other 3D-genomics data:**
 
 This is a flowchart depicting our MNase-seq data processing pipeline
 
