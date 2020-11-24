@@ -1,0 +1,6 @@
+Signal tracks: For nucleosome occupancy data, the first read of the Micro-C read pairs  map with Bowtie2 (2.3.2) and Samtools (1.4.1)
+Against the human genome (hg38) using the following parameters:
+(bowtie2 -p 16–local -x {hg38 bowtie2 genome} -U {fastq.file} | samtools view -bS -o {output.bam} -) 2 > &1 | tee {report.file})
+To compute the nucleosome dyad density, the resulting read starts were shifted by 73 bp (strand sensitive) to obtain the theoretical nucleosome dyad
+
+Based on Krietenstein et al., 2020
